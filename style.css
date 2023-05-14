@@ -12,6 +12,10 @@ body {
   background-color: #0c0e3f;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -79,8 +83,11 @@ header {
   object-fit: cover;
 }
 .banner-img{
-    animation: sliderZoom 12s linear infinite;
+    
     overflow: hidden;
+}
+img{
+    animation: sliderZoom 12s linear infinite;
 }
 
 @keyframes sliderZoom {
@@ -149,4 +156,55 @@ padding-left: 12px;
     margin: 8rem 7.6rem;
     padding: 24px 34px;
     
+}
+
+.sales-content .sales-outsourcing{
+font-size: 18px;
+padding: .8rem 0;
+}
+
+
+.sales-content .sales-para{
+    padding: .8rem 0;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.sales-content .btn{
+padding: 12px 24px;
+border-radius: 12px;
+cursor: pointer;
+border: none;
+background-color: blueviolet;
+color: white;
+font-size: 16px;
+}
+
+
+/* =======================selling container================== */
+
+
+.section-space{
+    margin: 8rem 7.6rem;
+}
+
+.selling-content{
+    text-align: center;
+    margin: 25px auto;
+    color: #fff;
+}
+.selling-content h3{
+    font-size: 24px;
+    padding: 12px 0;
+}
+.selling-content p{
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+
+.selling-card{
+    text-align: center;
+    width: 350px;
+    background: #fff;
 }
