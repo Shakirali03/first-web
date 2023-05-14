@@ -78,6 +78,23 @@ header {
 .banner-container img {
   object-fit: cover;
 }
+.banner-img{
+    animation: sliderZoom 12s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes sliderZoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+    
+}
 
 .tagline {
   position: absolute;
@@ -101,7 +118,7 @@ header {
     justify-content: space-between;
     color: #fff;
     padding: 16px 34px;
-    margin: 1rem 7rem;
+    margin: 4rem 7rem;
 }
 
 .dedicated-btn{
