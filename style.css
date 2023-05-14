@@ -123,3 +123,13 @@ padding-left: 12px;
 .dedicated-btn a {
     font-size: 1.4rem;
 }
+
+
+/* ==================sales================== */
+.sales-container{
+    background: #fff;
+    /* width: 980px; */
+    margin: 8rem 7.6rem;
+    padding: 24px 34px;
+    
+}
