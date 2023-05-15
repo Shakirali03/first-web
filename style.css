@@ -10,7 +10,7 @@
 
 body {
   background-color: #0c0e3f;
-}
+} 
 
 html {
   scroll-behavior: smooth;
@@ -67,6 +67,7 @@ header {
 .banner-container {
   position: relative;
   overflow: hidden;
+  filter: blur(100%);
 }
 
 .banner-container img {
