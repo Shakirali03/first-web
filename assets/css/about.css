@@ -1,0 +1,76 @@
+header {
+    margin-top: -1%;
+    height: 100px;
+    background: #89ca28;
+}
+section {
+    margin: 9rem 5rem;
+    padding: 2rem 3rem;
+    background: none;
+    color: #fff;
+    opacity: 70%;
+    
+}
+/* section:hover {
+    background: #3996c8;
+} */
+.heading1 {
+    margin: .5rem 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem .5rem;
+    border: #000 solid 2px;
+}
+/* .heading1 h1 {
+    text-decoration: underline #000 1px;
+} */
+
+.heading1 .para {
+    margin: 1rem 1rem;
+}
+.heading1:hover{
+    background: #3996c8;
+}
+
+.heading2 {
+    margin: .8rem 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem .5rem;
+    border: #000 solid 2px;
+}
+/* .heading2 h1 {
+    text-decoration: underline #000 1px;
+} */
+
+.heading2 .para {
+    margin: 1rem 1rem;
+}
+.heading2:hover {
+    background: #3996c8;
+}
+.heading3 {
+    margin: .8rem 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem .5rem;
+    border: #000 solid 2px;
+}
+/* .heading3 h1 {
+    text-decoration: underline #000 1px;
+} */
+
+.heading3 .para {
+    margin: 1rem 1rem;
+}
+.heading3:hover {
+    background: #3996c8;
+}
+/* ==================section2--============ */
+.ludo-heading {
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d0423b;
+}
+.section-2 {
+    margin-top: -5%;
+}
