@@ -127,12 +127,14 @@ header {
 /* =============================bannerEnd====================== */
 
 .group-btn {
+  font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #e61c1c;
   padding: 16px 34px;
-  margin: 4rem 7rem;
+  margin: .5rem 7rem;
+  transform: translateY(-120%);
 }
 
 .dedicated-btn {
@@ -323,6 +325,46 @@ font-size: 16px;
   margin-bottom: 10px;
 }
 
+/* ==============================clients==================== */
+.single-logo {
+  width: 100px;
+}
+.brand-carousel {
+  background: transparent;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 7%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 12px !important;
+  width: 12px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: #29487a !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .single-logo {
+    margin-left: 36px !important;
+  }
+  .accordion button {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  .accordion button .icon {
+    top: 35% !important;
+    width: 38px !important;
+    height: 32px !important;
+  }
+}
+
 /* ==================footer==================== */
 footer {
     /* background-color: #f4f6f7; */
@@ -435,6 +477,7 @@ footer {
   footer .second-row .text {
     margin-top: 16px;
   }
+  /* =====================copyrights================= */
 
    .copyright {
     margin: 2rem 0;
