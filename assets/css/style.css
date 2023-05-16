@@ -56,7 +56,7 @@ header {
 }
 
 .links a:hover {
-  color: #dd4d15;
+  color: #facb3c;
   transition: 0.3s;
   /* text-decoration: underline; */
 }
@@ -131,7 +131,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #e61c1c;
+  color: #facb3c;
   padding: 16px 34px;
   margin: .5rem 7rem;
   transform: translateY(-120%);
@@ -235,7 +235,7 @@ font-size: 16px;
 }
 
 .choose-content h1:hover{
-  color: #dd4d15;
+  color: #facb3c;
 }
 
 .choose-content p{
@@ -258,10 +258,10 @@ font-size: 16px;
 
 .choose-content button:hover{
   text-decoration: dotted;
-  color: #dd4d15;
+  color: #facb3c;
 }
 
-/* =======================selling container================== */
+/* =======================Focused sector container================== */
 
 .section-space {
   margin: 8rem 7.6rem;
@@ -294,15 +294,27 @@ font-size: 16px;
   display: flex;
   flex-direction: column;
   align-self: normal;
-  background: #fff;
+  background: #facb3c;
   padding: 12px 26px;
   border-radius: 8px;
   box-sizing: border-box;
   box-shadow: 0 0 15px lightblue;
+  filter: grayscale(100%);
+}
+
+.selling-card:hover 
+{
+  filter: grayscale(0%);
+  transition: transform ease-in-out;
+  transform: scale(1.2);
+  transform: translateY(-10%);
 }
 
 .selling-card h2 {
-  padding-bottom: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 22px; */
 }
 
 .selling-card p {
@@ -320,7 +332,10 @@ font-size: 16px;
   border-radius: 8px;
   margin-top: 12px;
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin-top: auto;
   margin-bottom: 10px;
 }
@@ -363,6 +378,20 @@ font-size: 16px;
     width: 38px !important;
     height: 32px !important;
   }
+}
+
+
+/* ============================clients==================== */
+.clients {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  padding: .5rem 0;
+  /* text-decoration: underline; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #facb3c;
 }
 
 /* ==================footer==================== */
