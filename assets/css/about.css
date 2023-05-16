@@ -71,6 +71,10 @@ section {
     align-items: center;
     color: #d0423b;
 }
+
+.ludo-heading:hover {
+    color: #facb3c;
+}
 .section-2 {
     margin-top: -5%;
 }
