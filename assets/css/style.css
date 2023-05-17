@@ -28,7 +28,7 @@ li{
 header {
   padding: 10px 34px;
   margin: 22px 16px;
-  position: fixed;
+  position:absolute;
   top: 0;
   width: 100%;
   /* background-color: #fff; */
