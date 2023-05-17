@@ -78,3 +78,18 @@ section {
 .section-2 {
     margin-top: -5%;
 }
+
+
+/* ====================================founder section===================== */
+.section-3 .heading1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 .heading2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
