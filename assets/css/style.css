@@ -830,7 +830,7 @@ animation: sliderZoom 12s linear infinite;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background:none;
+  background: none;
   padding-bottom:30px;
   height:150px;
   }
@@ -870,7 +870,7 @@ animation: sliderZoom 12s linear infinite;
   width:150px;
   padding:10px;
   }
-  
+
 .sectors {
   margin: 9rem 4rem;
   padding: 3rem 2rem;
