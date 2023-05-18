@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* cursor: pointer; */
 }
 
 body {
@@ -64,9 +63,10 @@ li{
 /* =================headerEnd========================= */
 /* toggle======================== */
 #header img{
-  width: 30%;
+  width: 250px;
+  /* height: 50px; */
     /* color: black; */
-    background-color: black;
+    background: none;
     border-radius: 12px;
 }
  
@@ -77,6 +77,7 @@ li{
   justify-content: space-between;
   margin: auto;
   padding: 25px 80px;
+  height: 85px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
   z-index: 999;
@@ -617,10 +618,11 @@ footer {
 }
 .team:hover{
     background: #3996c8;
+    font-weight: 300;
 }
 
 .trusted {
-    margin: 3rem 3.5rem;
+    margin: 3.5rem 3.5rem;
     padding: 2rem 2rem;
     border: #000 solid 2px;
 }
@@ -630,9 +632,10 @@ footer {
 }
 .trusted:hover {
   background: #3996c8;
+  font-weight: 300;
 }
 .maximize {
-  margin: 3rem 3.5rem;
+  margin: 3.5rem 3.5rem;
   padding: 2rem 2rem;
   border: #000 solid 2px;
 }
@@ -642,10 +645,11 @@ footer {
 }
 .maximize:hover {
   background: #3996c8;
+  font-weight: 300;
 }
 /* ==================section2--============ */
 .ludo-heading {
-    margin-top: auto;
+    margin: 3rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -689,6 +693,7 @@ footer {
     margin: 3rem 3.5rem;
     padding: 2rem 2rem;
     border: #000 solid 2px;
+    margin-bottom: 4rem;
 }
 .shikha .founder-heading {
   width: 25%;
@@ -705,6 +710,42 @@ footer {
 /* ================================About us End=============================== */
 
 /* ======================================Start service Page============================= */
+.services {
+  margin: 3rem 3.5rem;
+  padding: 2rem 2.5rem;
+  color: #fff;
+}
+.capital-infusion h3{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capital-infusion p {
+  margin-top: 1rem;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right img {
+  width: 30%;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+.right div {
+  width: 70%;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+.why-ludo {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.why-ludo p {
+  margin-top: 1rem;
+}
 
 
 
@@ -785,6 +826,51 @@ animation: sliderZoom 12s linear infinite;
 
 /* ====================================Sector Page Start===================================== */
 
+#ourclients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background:none;
+  padding-bottom:30px;
+  height:150px;
+  }
+  #ourclients .clients-wrap {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+  #ourclients .clients-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  #ourclients .clients-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 90px;
+  line-height: 10px;
+  text-align: center;
+  }
+  #ourclients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  width:150px;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+  }
+  #ourclients h3{
+  border-bottom:2px solid #3399ff;
+  width:150px;
+  padding:10px;
+  }
+  
 .sectors {
   margin: 9rem 4rem;
   padding: 3rem 2rem;
