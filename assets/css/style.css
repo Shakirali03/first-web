@@ -409,7 +409,6 @@ font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 22px; */
 }
 
 .selling-card p {
@@ -431,7 +430,6 @@ font-size: 16px;
   border-radius: 8px;
   margin-top: 12px;
   cursor: pointer;
-  /* display: inline-block; */
   display: block;
   justify-content: center;
   align-items: center;
@@ -532,7 +530,6 @@ font-size: 16px;
 
 /* ==================footer==================== */
 footer {
-    /* background-color: #f4f6f7; */
     color: #fff;
     margin: auto;
     padding: 2rem 2.5rem;
