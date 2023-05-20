@@ -34,26 +34,8 @@ setInterval(function () {
 
 
 // ==================clients=================
-$('.brand-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  autoplay: true,
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 1
-    },
-    1000: {
-      items: 4
-    }
-  }
-})
 
-
-// ================================sector logo==============
-
+  
 $(function() {
   var $clientslider = $('#clientlogo');
   var clients = $clientslider.children().length;
@@ -87,4 +69,24 @@ $(function() {
 
 
 
+
+// ===================================horizontal timeline on about us page=======
+var vTimeline = document.getElementById("horizontal-timeline");
+
+activation(hTimeline);
+
+function activation(timeline) {
+  var divs = timeline.getElementsByTagName("div");
+  for (var i = 0; i < divs.length; i++) {
+    if (
+      divs[i].classList.contains("circle") ||
+      divs[i].classList.contains("link")
+    ) {
+      divs[i].style.background = "#05A5D1";
+      if (divs[i].classList.contains("activated")) {
+        break;
+      }
+    }
+  }
+}
 
