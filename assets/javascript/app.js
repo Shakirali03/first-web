@@ -16,7 +16,7 @@ if (close) {
 
 
 
-
+// ===========banner===============
 
 
 const image = document.getElementById("image");
