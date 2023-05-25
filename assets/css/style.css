@@ -274,7 +274,7 @@ font-size: 16px;
   padding: 3rem 2rem;
 }
 
-.image-content:hover {
+.image-content .image-choose:hover {
   animation: sliderZoom 12s linear infinite;
 }
 
@@ -1383,11 +1383,61 @@ animation: sliderZoom 12s linear infinite;
     }
   }
 
-  @media (max-width: 477px) {
+  @media (max-width: 541px) {
     
     #header {
       padding: 10px 30px;
     }
+    .group-btn {
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 22px 0;
+      /* margin: 0.5rem 7rem; */
+  }
+
+  .tagline {
+    font-size: 1rem;
+}
+
+
+
+  .image-content {
+    margin: 1rem 3rem;
+    padding: 1rem 0;
+}
+
+
+  #ourclients {
+    width: 250px;
+}
+
+  .choose-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-choose{
+  width: 350px;
+}
+
+footer .second-row {
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .row-one {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.copyright {
+  flex-wrap: wrap;
+}
+
+
   }
 
 
