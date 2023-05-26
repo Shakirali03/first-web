@@ -1381,6 +1381,37 @@ animation: sliderZoom 12s linear infinite;
       color: #222;
       font-size: 24px;
     }
+    
+    /* .choose-section */
+
+  .choose-section{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .choose-content {
+    margin: 1rem 0.3rem;
+    padding: 0.3rem 0;
+    font-size: 1rem;
+}
+
+footer .row-one {
+  margin: 0 .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+  /* ourclients */
+
+  #ourclients {
+    width: 450px;
+}
+
+  
+
+
   }
 
   @media (max-width: 541px) {
@@ -1397,6 +1428,13 @@ animation: sliderZoom 12s linear infinite;
 
   .tagline {
     font-size: 1rem;
+}
+
+/* card */
+
+footer .second-row {
+  margin: .6rem 0;
+  padding: 0rem;
 }
 
 
